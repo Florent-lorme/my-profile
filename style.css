@@ -1,0 +1,150 @@
+body {
+background-color: rgb(229, 229, 229);
+color: rgb(30, 30, 30);
+font-family: Metric;
+font-size: 20px;
+
+font-weight: 699;
+
+
+
+}
+h1, h2 {
+font-family: Dala Floda;
+}
+
+h1 {color : rgb(29, 54, 73);
+font-size: 36px;
+}
+
+h2 {color : rgb(30, 54, 76);
+font-size: 36px;
+}
+
+
+a{
+text-decoration: none;
+color: rgb(246, 216, 62);
+font-weight: bold;
+}
+
+a:hover {
+	color: purple;
+}
+
+
+/*CSS design*/
+
+.container{
+width: 900px;
+margin: 40px auto;
+}
+
+@media (max-width: 950px) {
+
+	.container {width: 700px}
+}
+
+
+@media (max-width: 800px) {
+
+	.container {width: 650px}
+}
+
+@media (max-width: 700px) {
+
+	.container {width: 580px}
+}
+
+.card-white{
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 8px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	-webkit-filter: blur(3px);
+	filter: blur(2px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.img-circle:hover {
+	-webkit-transform: scale(2.6);
+	transform: scale(2.6);
+	margin-top: 29px;
+	margin-bottom: 12px;
+	border-radius: 25%;
+	transition: 2.5s;
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.btn-blue{
+
+border: none;
+background: rgb(246, 216, 62);
+color: rgb(30, 54, 76) !important;
+font-weight: 100;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+
+.btn-blue:hover {
+color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px
+}
+
+
+.list-inline i {
+	font-size: 50px;
+	color : rgb(246, 216, 62);
+
+}
+
+.list-inline i:hover {
+background-color : #fff;
+color: rgb(30, 54, 76);
+font-size: 60px;
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,2.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,2.57);
+transition: all 0.4s ease 0s;
+}
+
+#introduction p {
+margin-bottom:40px;
+margin-top: 40px;
+}
+
+.image-circle: {
+	margin-bottom:404px;
+    margin-top: 4020px;
+}
+
+
+
+
+
